@@ -6,6 +6,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -31,6 +32,7 @@ body {
 
 .nav li {
 	padding-inline: 10px;
+	cursor: pointer;
 }
 
 .nav a {
@@ -40,6 +42,10 @@ body {
 
 .social-link img {
 	width: 20px;
+}
+
+.visually-hidden {
+	color: black;
 }
 
 #about {
@@ -91,9 +97,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -126,6 +129,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor:pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
